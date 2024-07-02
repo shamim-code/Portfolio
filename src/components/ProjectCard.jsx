@@ -4,7 +4,7 @@ export default function ProjectCard(props) {
   const { project } = props;
 
   return (
-    <div data-aos="flip-up" className='m-10 flex justify-between px-1 w-[200px] md:ml-[30%] md:w-[400px]'>
+    <div data-aos="flip-up" className='mt-10 flex justify-between px-1 w-[200px] md:ml-[30%] md:w-[400px]'>
       <img className="rounded-md mr-1" src={project.img} alt={project.title} />
       <div>
         <h1 className="text-white">{project.title}</h1>
