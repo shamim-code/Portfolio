@@ -16,6 +16,13 @@ export default function Project() {
       githublink: "https://github.com/shamim-code/smartMeal",
       features: "1. Meals Manage\n2. User Report\n3. Monthly Overview\n",
       img: "https://i.ibb.co/51C3MKg/smartmeals.png"
+    },
+    {
+      title: "Chatting App",
+      livelink: "https://chat-application-inky-psi.vercel.app/",
+      githublink: "https://github.com/shamim-code/ChatApplication",
+      features: "1. Authentication\n2. Add Friend\n3. CHatting with friends\n",
+      img: "https://i.ibb.co/kMbyC5c/Chatt-app.png"
     }
   ];
 
