@@ -115,16 +115,32 @@ export default function App() {
 
           </div>
 
-          <p className="section02 bg-gray-800 font-serif p-4 text-white text-justify">Welcome to my digital domain, where innovation meets expertise! I am a dynamic full stack software developer, armed with a robust toolkit of cutting-edge technologies and a passion for crafting exceptional digital experiences.
+          <section className="section02 bg-gray-800 font-serif p-4 text-white text-justify flex flex-col gap-4 items-center">
+            <h1 className='text-center text-2xl bg-gradient-to-r from-yellow-400 to-rose-600 bg-clip-text text-transparent'>A Full-stack Software Developer</h1>
 
-          At the forefront of my skill set lies a mastery of frontend development, where I leverage the power of HTML, CSS, and Tailwind CSS to sculpt captivating user interfaces. With a keen eye for aesthetics and a dedication to pixel-perfection, I bring designs to life with fluidity and finesse. Harnessing the expressive capabilities of Framer Motion and the versatility of React, I breathe life into static pages, infusing them with interactive elements and seamless animations that captivate and engage users.
+            <div data-aos="zoom-in" id="frontend" className='flex flex-col gap-1 ml-5 bg-slate-900 p-2 w-[300px] rounded-md'>
+              <h2 className=' text-xl  bg-gradient-to-r from-red-400 to-green-400 bg-clip-text text-transparent '>Frontend Technology -</h2>
+              <ul className=' text-slate-400'>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Tailwind CSS</li>
+                <li>GSAP Animation</li>
+                <li>Redux</li>
+              </ul>
+            </div>
 
-          But my expertise doesn't end at the frontend. On the backend, I wield the formidable Node.js and Express frameworks, architecting robust and scalable server-side solutions that power the backbone of web applications. Whether it's crafting RESTful APIs or implementing complex business logic, I thrive in the realm of server-side development, ensuring that applications run smoothly and securely.
-
-          Moreover, I am well-versed in the Next.js framework, which allows me to build high-performance, production-ready web applications with ease. From server-side rendering to static site generation, Next.js empowers me to deliver lightning-fast experiences that exceed expectations.
-
-          What truly sets me apart, however, is not just my technical prowess, but my unwavering commitment to problem-solving and effective communication. I approach every challenge with a strategic mindset, dissecting problems and devising elegant solutions that drive projects forward. Moreover, my ability to communicate complex technical concepts in clear and concise terms fosters collaboration and ensures that stakeholders are aligned every step of the way.
-          </p>
+            <div data-aos="zoom-in" id="backend" className='flex flex-col gap-1 ml-5 bg-slate-900 p-2 w-[300px] rounded-md'>
+              <h2 className=' text-xl  bg-gradient-to-r from-red-400 to-green-400 bg-clip-text text-transparent'>Backend Technology -</h2>
+              <ul className=' text-slate-400'>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>PostgreSql</li>
+                <li>Payment Gateway Integration</li>
+                <li>Socket.io</li>
+              </ul>
+            </div>
+          </section>
         </div>
 
         {/* Education */}
