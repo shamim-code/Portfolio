@@ -19,7 +19,7 @@ export default function Project() {
     },
     {
       title: "Chatting App",
-      livelink: "https://chat-application-inky-psi.vercel.app/",
+      livelink: "https://samchat99.netlify.app",
       githublink: "https://github.com/shamim-code/ChatApplication",
       features: "1. Authentication\n2. Add Friend\n3. CHatting with friends\n",
       img: "https://i.ibb.co/kMbyC5c/Chatt-app.png"
