@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 export default function Project() {
   const projectInfo = [
     {
+      title: "Sam Commerce",
+      livelink: "https://sam-commerce.vercel.app/",
+      githublink: "https://github.com/shamim-code/SamCommerce",
+      features: "1.Authentication\n2.Order Product.\n3.Payment Gateway Integration",
+      img:"https://ibb.co.com/LxJCWHq"
+    },
+    {
       title: "News Portal",
       livelink: "https://newsportal22.netlify.app/",
       githublink: "https://github.com/shamim-code/NewsPortal",
