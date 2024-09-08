@@ -8,7 +8,7 @@ export default function Project() {
       livelink: "https://sam-commerce.vercel.app/",
       githublink: "https://github.com/shamim-code/SamCommerce",
       features: "1.Authentication\n2.Order Product.\n3.Payment Gateway Integration",
-      img:"https://ibb.co.com/LxJCWHq"
+      img:"https://i.ibb.co.com/CbMnZDX/commerce.png"
     },
     {
       title: "News Portal",
